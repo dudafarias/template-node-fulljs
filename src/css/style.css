@@ -1,5 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@400;700&display=swap");
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: "Encode Sans SC", sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Encode Sans SC", sans-serif;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.main-left {
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+}
+
+.section {
+  height: 100vh;
+  width: 100%;
+}
+
+.background--one {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.background--one .block-section--one {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.background--one .block-section--one h1 {
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 32px;
+}
+
+.background--Two {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 120vh;
+  display: flex;
+}
+.background--Two .footer-contain {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.background--Two .block-section--two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.background--Two .block-section--two.text-block--two img {
+  margin: 90px 0px 0px 90px;
+}
 
 /*# sourceMappingURL=style.css.map */
